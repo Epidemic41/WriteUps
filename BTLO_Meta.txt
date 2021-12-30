@@ -1,0 +1,9 @@
+BTLO Writeup
+Challenge
+Meta
+Easy
+ExifTool, Reverse image search
+https://blueteamlabs.online/home/challenge/39
+12.21.2021
+	ExifTool to extract photo data
+	google reverse search to obtain city of monument 
