@@ -2,10 +2,12 @@ BTLO Writeup
 Challenge
 Shiba Insider
 Easy
+Wireshark, Cyberchef, Steghide, ExifTool
 https://blueteamlabs.online/home/challenge/29
 12.30.2021
 	responce from pacp file in wireshark
 	password from http.authorization field
+	convert from base64 in cyberchef
 	password opens zip file
 	txt in zip says 'no more password required'
 	exiftool reveals steghide was used on ssdog1.jpeg
