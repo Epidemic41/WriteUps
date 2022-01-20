@@ -1,0 +1,22 @@
+CyberDefenders Writeup
+Practice
+HoneyBOT
+Easy
+Wireshark, Pcap, whois/neustar(ipgeolocation lookup tool)
+https://cyberdefenders.org/blueteam-ctf-challenges/45
+1.20.2022
+
+for beginner lab do questions 1-5
+
+q1
+	98 starts session, initiates smb request along with other protocols
+q2
+	destination of 98's traffic
+q3
+	google 'ip geo locator' 
+		https://geo-lookup.ipify.org/	
+q4
+	how to id # of tcp stream
+		https://osqa-ask.wireshark.org/questions/4117/how-can-i-know-the-number-of-open-tcp-streams-in-the-pcap-file/
+q5
+	see time field in wireshark
