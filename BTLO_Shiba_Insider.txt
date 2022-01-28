@@ -5,16 +5,22 @@ Easy
 Wireshark, Cyberchef, Steghide, ExifTool
 https://blueteamlabs.online/home/challenge/29
 12.30.2021
+	q1 use your own passwor\n
 	zip file extraction errors
 		need PK compat. v5.1 (can do v4.6) OR use 7z x <filename>
 	responce from pacp file in wireshark
 	password from http.authorization.credentals field
-	convert from base64 in cyberchef
+		fakeblue:redforever
+	--convert from base64 in cyberchef
 	password opens zip file
 	txt in zip says 'no more password required'
+		cat filename.txt
 	exiftool reveals steghide was used on ssdog1.jpeg
+		exiftool ssdog1.jpeg
 	steghide to extract txt from ssdog1.jpeg 
+		steghide --extract -sf  ssdog1.jpeg 
 	steghide txt contains 'ID'
+		0726ba878ea47de571777a
 	'ID' is BTLO user ID, 
 	https://blueteamlabs.online/home/user/ENTER_ID_HERE
 	'bluetiger' profile
