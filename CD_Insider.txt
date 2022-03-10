@@ -1,0 +1,66 @@
+CyberDefenders Writeup
+Practice
+Insider
+Easy
+Linux, FTK, Incident Response, Kali
+https://cyberdefenders.org/blueteam-ctf-challenges/64
+3.8.2022
+
+q1
+	/etc/*-release
+q2
+	/var/apache?? right click export as csv
+q3
+	/home/user/Downloads?
+q4
+		/var/log/messages
+    		System logs.
+
+q5
+		/proc?
+
+q6
+
+q7
+	apache logs OR 
+	/var/log/messages
+    		System logs.
+
+q8
+
+q9
+
+q10	
+	bash history
+	/home/bob/.bash_history
+
+	/var/log/auth.log
+
+    Record of all logins and logouts by normal users and system processes.
+/var/log/btmp
+
+    Log of all attempted bad logins to the system. Accessed via the lastb command.
+
+q11
+
+	
+you want to check the login history in your Linux system, just check the content of the file in /var/log/wtmp.
+
+    /etc/init.d/ = The actual scripts are located here.
+    /etc/rc0.d/ = The symbolic links for scripts that are executed in run level 0 are here.
+    /etc/rc1.d/ = The symbolic links for scripts that are executed in run level 1 are here.
+    /etc/rc2.d/ = The symbolic links for scripts that are executed in run level 2 are here.
+    /etc/rc3.d/ = The symbolic links for scripts that are executed in run level 3 are here.
+    /etc/rc4.d/ = The symbolic links for scripts that are executed in run level 4 are here.
+    /etc/rc5.d/ = The symbolic links for scripts that are executed in run level 5 are here.
+    /etc/rc6.d/ = The symbolic links for scripts that are executed in run level 6 are here.
+    /etc/rcS.d/ = These scripts are executed even when booting directly into single user mode.
+
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+https://linuxhandbook.com/linux-directory-structure/ //graphic
+
+/proc/PID/cwd
+https://coding-bootcamps.com/linux/filesystem/proc.html
+    Link to the current working directory.
