@@ -8,6 +8,7 @@ https://cyberdefenders.org/blueteam-ctf-challenges/64
 
 q1
 	/etc/*-release
+	Check the system map under the boot folder. The Linux distribution is kali.
 q2
 	/var/apache?? right click export as csv
 q3
