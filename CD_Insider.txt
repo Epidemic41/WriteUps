@@ -6,30 +6,57 @@ Linux, FTK, Incident Response, Kali
 https://cyberdefenders.org/blueteam-ctf-challenges/64
 3.8.2022
 
+things to cover in slides
+	ftk
+	brief overview of file structure
+	/boot for disro
+	right click file in evidence tree to get hashes
+	home/* files (use own screenshot
+	mimikatz
+	binwalk
+	.bash_history
+	var/log/apache2
+	var/log/auth.log
+	
+
 q1
 	/etc/*-release
 	Check the system map under the boot folder. The Linux distribution is kali.
 q2
-	/var/apache?? right click export as csv
+	/var/apache2 right click export as csv
+	d41d8cd98f00b204e9800998ecf8427e
 q3
-	/home/user/Downloads?
+	/home/user/Downloads
+	mimikatz_trunk.zip
 q4
 		/var/log/messages
     		System logs.
+		/root/Desktop/superSecretFile.txt
 
 q5
 		/proc?
+		binwalk
 
 q6
+	/desktop
+	profit
 
 q7
 	apache logs OR 
 	/var/log/messages
     		System logs.
+		0
+		file size 0
 
 q8
+	/root
+	irZLAohL.jpeg
+	or nmap scan but wants image i guesss
 
 q9
+	/Documents
+	fixedscript mentions Young by name, not computer name or ip 
+	Young
 
 q10	
 	bash history
@@ -43,8 +70,12 @@ q10
     Log of all attempted bad logins to the system. Accessed via the lastb command.
 
 q11
+/root/.bash_history
+	 /root/documents/myfirsthack/
 
 	
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
 you want to check the login history in your Linux system, just check the content of the file in /var/log/wtmp.
 
     /etc/init.d/ = The actual scripts are located here.
